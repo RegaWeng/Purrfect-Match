@@ -1,0 +1,24 @@
+body {
+    background-color: #fff5fe;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #fff5fe;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff5fe;
+    z-index: -1;
+  }
+
+  .card {
+    margin-top: 20px;
+  }

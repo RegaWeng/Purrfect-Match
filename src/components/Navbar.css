@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
+
+
+.navbarFluid {
+  font-family: 'Exo 2', sans-serif;
+  background-color: #fafad5;
+  width: 100%;
+}
+
+.navbarFluid {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar-brand {
+  padding-left: 15%;
+  font-size: 5rem;
+}
+
+.nav-link {
+  font-size: 4rem;
+  margin-right: 1rem;
+}
+
