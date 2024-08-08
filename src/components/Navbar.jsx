@@ -1,7 +1,9 @@
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import logo from '../images/icon.png';
 import './Navbar.css';
+import './Services';
 
 const MyNavbar = () => {
   return (
@@ -22,11 +24,11 @@ const MyNavbar = () => {
 
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
           <Nav className="mx-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/cat-range">Cat Range</Nav.Link>
-            <Nav.Link href="/our-services">Our Services</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
-          </Nav>
+          <Nav.Link as={Link} to="/">Home</Nav.Link>
+            <Nav.Link as={Link} to="/CatRange">Cat Range</Nav.Link>
+            <Nav.Link as={Link} to="/Services">Our Services</Nav.Link>
+            <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+            </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>

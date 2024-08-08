@@ -1,0 +1,17 @@
+.cat-filter {
+    margin: 16px;
+  }
+  
+  .filter-range {
+    margin-bottom: 12px;
+  }
+  
+  .filter-range label {
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  .filter-range input[type="range"] {
+    width: 100%;
+  }
+  

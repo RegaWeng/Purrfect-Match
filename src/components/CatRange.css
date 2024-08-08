@@ -1,0 +1,46 @@
+/* src/components/CatCard.css */
+.cat-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    margin: 8px;
+  }
+  
+  .cat-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* src/components/CatFilter.css */
+  .cat-filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  
+  .cat-filter button {
+    margin: 0 8px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .cat-filter button:hover {
+    background-color: #ccc;
+  }
+  
+  /* src/pages/CatRange.css */
+  .cat-range {
+    padding: 20px;
+  }
+  
+  .cat-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  

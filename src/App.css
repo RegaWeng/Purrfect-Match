@@ -1,6 +1,20 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
+
+a {
+  text-decoration: none; /* Removes underline from all links */
+  color: inherit; /* Optional: inherits the color from the parent element */
+}
+
+a:hover {
+  text-decoration: underline; /* Optional: adds underline on hover */
+  color: inherit; /* Optional: change color on hover if needed */
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -24,10 +38,6 @@
   color:  #fff5fe;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -40,3 +50,14 @@
 .body {
   background-color: #fff5fe;
 }
+
+.main-content {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+  padding: 20px;
+  text-align: center;
+}
+
